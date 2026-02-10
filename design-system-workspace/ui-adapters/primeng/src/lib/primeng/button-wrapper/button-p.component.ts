@@ -2,25 +2,21 @@
 import {
   Component,
   EventEmitter,
-  inject,
-  Inject,
-  InjectionToken,
+  Input,
+  Output,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ButtonModule } from 'primeng/button';
-import { BUTTON_CLICKED, BUTTON_LABEL } from './button-tokens';
+
 @Component({
   standalone: true,
   selector: 'primeng-p-button',
   imports: [CommonModule, ButtonModule],
-  template: `<p-button [label]="label" (click)="clicked()"></p-button>`,
+  template: `<p-button [label]="label" (onClick)="onclick.emit()"></p-button>`,
 })
-export class ButtonWrapperComponent {
+export class ButtonPComponent {
   // Inputs via DI token
-  label = inject<string>(BUTTON_LABEL);
-  clicked = inject(BUTTON_CLICKED);
+  @Input() label!: string;
+  @Output() onclick = new EventEmitter<void>();
 
-  hello(): void {
-    alert('hello');
-  }
 }
