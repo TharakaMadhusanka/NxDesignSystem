@@ -1,1 +1,1 @@
-export * from './lib/primeng/primeng';
+export * from './lib/primeng/button/button';

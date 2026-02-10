@@ -1,5 +1,5 @@
 {
-  "name": "primeng",
+  "name": "ui-adapters-primeng",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "ui-adapters/primeng/src",
   "prefix": "primeng",

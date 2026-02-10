@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'primeng-primeng',
+  selector: 'primeng-button',
   imports: [],
-  templateUrl: './primeng.html',
-  styleUrl: './primeng.scss',
+  template: 'Hello World',
 })
 export class PrimengButton {}
