@@ -8,9 +8,13 @@
 
 3. Create Angular Lib
 
+// Create Libs in Nested Container Folder
+
+`npx nx generate @nx/angular:library ui-components/table --publishable=true --importPath=@dso/ui-components/table`
+
 `npx nx g @nx/angular:library --name=table --directory=packages/dso-ui-components/table --publishable --importPath=@dso/table --style=scss`
 
-4. List Projects
+1. List Projects
 
 `npx nx show projects`
 

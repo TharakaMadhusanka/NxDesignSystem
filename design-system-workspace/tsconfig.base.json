@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@dso/ui-components/button": ["ui-components/button/src/index.ts"],
+      "@dso/ui-components/table": ["ui-components/table/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
