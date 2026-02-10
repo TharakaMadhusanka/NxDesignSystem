@@ -8,7 +8,7 @@
 
 3. Create Angular Lib
 
-`npx nx g @nx/angular:lib libs/libName`
+`npx nx g @nx/angular:library --name=table --directory=packages/dso-ui-components/table --publishable --importPath=@dso/table --style=scss`
 
 4. List Projects
 
