@@ -1,1 +1,1 @@
-export * from './lib/button/button';
+export { BUTTON_COMPONENT, COMPONENTS, ButtonHostComponent } from './lib/button/button.token';

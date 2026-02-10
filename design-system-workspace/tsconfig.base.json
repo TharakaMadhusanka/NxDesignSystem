@@ -17,7 +17,8 @@
     "paths": {
       "@dso/ui-components/button": ["ui-components/button/src/index.ts"],
       "@dso/ui-components/table": ["ui-components/table/src/index.ts"],
-      "@dso/ui-adapters-primeng": ["ui-adapters/primeng/src/index.ts"]
+      "@dso/ui-adapters-primeng": ["ui-adapters/primeng/src/index.ts"],
+      "@dso/ui-core": ["ui-core/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

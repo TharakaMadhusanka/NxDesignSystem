@@ -1,0 +1,6 @@
+// libs/ui-adapters-primeng/src/lib/styles/_primeng-tokens.scss
+@use 'primeng/core/styles/core' as core;
+@use 'primeng/core/styles/components/button' as button;
+
+@include core.core();
+@include button.button();

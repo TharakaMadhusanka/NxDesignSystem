@@ -29,3 +29,15 @@
 7. View DI Graph
 
 `npx nx graph`
+
+# Adapter library
+
+nx g @nx/angular:library ui-adapters-primeng --publishable --importPath=@dso/ui-adapters-primeng
+
+# Component inside adapter library
+
+nx g @nx/angular:library button-wrapper --directory=ui-adapters-primeng --publishable --importPath=@dso/ui-adapters-primeng/button-wrapper
+
+# UI components library (facade)
+
+nx g @nx/angular:library ui-components --publishable --importPath=@dso/ui-components
